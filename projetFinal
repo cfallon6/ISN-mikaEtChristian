@@ -1019,14 +1019,7 @@ def main():
                 pygame.quit()
                 return
 
-    print(text2.get_width())
 
-    while True:
-         for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-                pygame.quit()
-                return
 
 
 
