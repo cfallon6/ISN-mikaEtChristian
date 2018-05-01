@@ -101,6 +101,7 @@ def main():
     ligne = 682
     font = pygame.font.SysFont ("impact", 36)
     text = font.render("C'est gagné!", True, yellow)
+    nbessaies=0
 
 
 
@@ -407,6 +408,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -497,6 +519,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -582,6 +625,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -667,6 +731,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -752,6 +837,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -837,6 +943,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -922,6 +1049,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
+
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -1007,6 +1155,27 @@ def main():
                             elif maListe[loop]==8:
                                 pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
                         running = False
+
+                    elif nbessaies==9:
+                        for loop in range (4):
+                            if codeSecret[loop]==1:
+                                pygame.draw.circle(fenetre, red, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==2:
+                                pygame.draw.circle(fenetre, orange, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==3:
+                                pygame.draw.circle(fenetre, yellow, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==4:
+                                pygame.draw.circle(fenetre, green, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==5:
+                                pygame.draw.circle(fenetre, blue, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==6:
+                                pygame.draw.circle(fenetre, purple, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==7:
+                                pygame.draw.circle(fenetre, pink, (345+loop*97, 82), 20, 0)
+                            elif codeSecret[loop]==8:
+                                pygame.draw.circle(fenetre, white, (345+loop*97, 82), 20, 0)
+
+                    nbessaies=nbessaies+1
                     ligne = ligne-60
                     maListe = []
                     pygame.display.flip()
@@ -1026,4 +1195,3 @@ def main():
 
 
 main()
-
